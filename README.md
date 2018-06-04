@@ -30,7 +30,7 @@ Import the element in your polymer project and attach it:
 <adamanitum-editor id="editor" body-text="This is a text"></adamantium-editor>
 ```
 
-Includes a **get()** method for get typed text.
+Includes a **get()** method for get typed text or onChange event
 
 ### Demo: https://jsfiddle.net/esq1e2et/
 
