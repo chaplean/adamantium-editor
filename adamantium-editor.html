@@ -223,6 +223,8 @@
               }
 
               this.editorBody.focus();
+              this.set('bodyText', this.editorBody.innerHTML);
+              this.fire('change', {html: this.editorBody.innerHTML});
           },
 
           _inputImageDialog() {
